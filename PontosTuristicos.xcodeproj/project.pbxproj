@@ -12,6 +12,10 @@
 		ACE5D4CA1FE9417500FB4A6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACE5D4C81FE9417500FB4A6A /* Main.storyboard */; };
 		ACE5D4CC1FE9417500FB4A6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACE5D4CB1FE9417500FB4A6A /* Assets.xcassets */; };
 		ACE5D4CF1FE9417500FB4A6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACE5D4CD1FE9417500FB4A6A /* LaunchScreen.storyboard */; };
+		ACE5D4D71FE9435A00FB4A6A /* poi.json in Resources */ = {isa = PBXBuildFile; fileRef = ACE5D4D61FE9435A00FB4A6A /* poi.json */; };
+		ACE5D4D91FE9439900FB4A6A /* PontosTuristicos.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE5D4D81FE9439900FB4A6A /* PontosTuristicos.swift */; };
+		ACE5D4DB1FE9455C00FB4A6A /* PontosTuristicosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE5D4DA1FE9455C00FB4A6A /* PontosTuristicosTableViewController.swift */; };
+		ACE5D4DD1FE948E700FB4A6A /* PontosTuristicosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE5D4DC1FE948E700FB4A6A /* PontosTuristicosTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		ACE5D4CB1FE9417500FB4A6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACE5D4CE1FE9417500FB4A6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACE5D4D01FE9417500FB4A6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACE5D4D61FE9435A00FB4A6A /* poi.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poi.json; sourceTree = "<group>"; };
+		ACE5D4D81FE9439900FB4A6A /* PontosTuristicos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PontosTuristicos.swift; sourceTree = "<group>"; };
+		ACE5D4DA1FE9455C00FB4A6A /* PontosTuristicosTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PontosTuristicosTableViewController.swift; sourceTree = "<group>"; };
+		ACE5D4DC1FE948E700FB4A6A /* PontosTuristicosTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PontosTuristicosTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +62,16 @@
 		ACE5D4C31FE9417400FB4A6A /* PontosTuristicos */ = {
 			isa = PBXGroup;
 			children = (
+				ACE5D4D61FE9435A00FB4A6A /* poi.json */,
 				ACE5D4C41FE9417500FB4A6A /* AppDelegate.swift */,
 				ACE5D4C61FE9417500FB4A6A /* ViewController.swift */,
 				ACE5D4C81FE9417500FB4A6A /* Main.storyboard */,
 				ACE5D4CB1FE9417500FB4A6A /* Assets.xcassets */,
 				ACE5D4CD1FE9417500FB4A6A /* LaunchScreen.storyboard */,
 				ACE5D4D01FE9417500FB4A6A /* Info.plist */,
+				ACE5D4D81FE9439900FB4A6A /* PontosTuristicos.swift */,
+				ACE5D4DA1FE9455C00FB4A6A /* PontosTuristicosTableViewController.swift */,
+				ACE5D4DC1FE948E700FB4A6A /* PontosTuristicosTableViewCell.swift */,
 			);
 			path = PontosTuristicos;
 			sourceTree = "<group>";
@@ -123,6 +135,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACE5D4D71FE9435A00FB4A6A /* poi.json in Resources */,
 				ACE5D4CF1FE9417500FB4A6A /* LaunchScreen.storyboard in Resources */,
 				ACE5D4CC1FE9417500FB4A6A /* Assets.xcassets in Resources */,
 				ACE5D4CA1FE9417500FB4A6A /* Main.storyboard in Resources */,
@@ -136,8 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACE5D4DD1FE948E700FB4A6A /* PontosTuristicosTableViewCell.swift in Sources */,
 				ACE5D4C71FE9417500FB4A6A /* ViewController.swift in Sources */,
 				ACE5D4C51FE9417500FB4A6A /* AppDelegate.swift in Sources */,
+				ACE5D4D91FE9439900FB4A6A /* PontosTuristicos.swift in Sources */,
+				ACE5D4DB1FE9455C00FB4A6A /* PontosTuristicosTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

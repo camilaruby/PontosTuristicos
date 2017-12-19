@@ -1,0 +1,31 @@
+[{
+		"name": "Parque Ibirapuera",
+		"address": "Av. Pedro Álvares Cabral - Vila Mariana",
+		"latitude": -23.5874113,
+		"longitude": -46.6598223
+	},
+	{
+		"name": "Catedral da Sé",
+		"address": "Praça da Sé - Sé",
+		"latitude": -23.5512753,
+		"longitude": -46.6365314
+	},
+	{
+		"name": "Museu de Arte de São Paulo",
+		"address": "Av. Paulista, 1578 - Bela Vista",
+		"latitude": -23.5614091,
+		"longitude": -46.6580706
+	},
+	{
+		"name": "Parque Zoológico de São Paulo",
+		"address": "Av. Miguel Estéfano, 4241 - Vila Água Funda",
+		"latitude": -23.6507864,
+		"longitude": -46.6227844
+	},
+	{
+		"name": "Pinacoteca do Estado de São Paulo",
+		"address": "Praça da Luz, 2 - Luz",
+		"latitude": -23.5342617,
+		"longitude": -46.6361388
+	}
+]
