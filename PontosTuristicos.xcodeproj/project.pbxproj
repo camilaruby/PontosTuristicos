@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACE5D4C51FE9417500FB4A6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE5D4C41FE9417500FB4A6A /* AppDelegate.swift */; };
+		ACE5D4C71FE9417500FB4A6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE5D4C61FE9417500FB4A6A /* ViewController.swift */; };
+		ACE5D4CA1FE9417500FB4A6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACE5D4C81FE9417500FB4A6A /* Main.storyboard */; };
+		ACE5D4CC1FE9417500FB4A6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACE5D4CB1FE9417500FB4A6A /* Assets.xcassets */; };
+		ACE5D4CF1FE9417500FB4A6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACE5D4CD1FE9417500FB4A6A /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ACE5D4C11FE9417400FB4A6A /* PontosTuristicos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PontosTuristicos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACE5D4C41FE9417500FB4A6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACE5D4C61FE9417500FB4A6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ACE5D4C91FE9417500FB4A6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACE5D4CB1FE9417500FB4A6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACE5D4CE1FE9417500FB4A6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACE5D4D01FE9417500FB4A6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACE5D4BE1FE9417400FB4A6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACE5D4B81FE9417400FB4A6A = {
+			isa = PBXGroup;
+			children = (
+				ACE5D4C31FE9417400FB4A6A /* PontosTuristicos */,
+				ACE5D4C21FE9417400FB4A6A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACE5D4C21FE9417400FB4A6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACE5D4C11FE9417400FB4A6A /* PontosTuristicos.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACE5D4C31FE9417400FB4A6A /* PontosTuristicos */ = {
+			isa = PBXGroup;
+			children = (
+				ACE5D4C41FE9417500FB4A6A /* AppDelegate.swift */,
+				ACE5D4C61FE9417500FB4A6A /* ViewController.swift */,
+				ACE5D4C81FE9417500FB4A6A /* Main.storyboard */,
+				ACE5D4CB1FE9417500FB4A6A /* Assets.xcassets */,
+				ACE5D4CD1FE9417500FB4A6A /* LaunchScreen.storyboard */,
+				ACE5D4D01FE9417500FB4A6A /* Info.plist */,
+			);
+			path = PontosTuristicos;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACE5D4C01FE9417400FB4A6A /* PontosTuristicos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACE5D4D31FE9417500FB4A6A /* Build configuration list for PBXNativeTarget "PontosTuristicos" */;
+			buildPhases = (
+				ACE5D4BD1FE9417400FB4A6A /* Sources */,
+				ACE5D4BE1FE9417400FB4A6A /* Frameworks */,
+				ACE5D4BF1FE9417400FB4A6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PontosTuristicos;
+			productName = PontosTuristicos;
+			productReference = ACE5D4C11FE9417400FB4A6A /* PontosTuristicos.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACE5D4B91FE9417400FB4A6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = br.com.camila.fiap;
+				TargetAttributes = {
+					ACE5D4C01FE9417400FB4A6A = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = ACE5D4BC1FE9417400FB4A6A /* Build configuration list for PBXProject "PontosTuristicos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACE5D4B81FE9417400FB4A6A;
+			productRefGroup = ACE5D4C21FE9417400FB4A6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACE5D4C01FE9417400FB4A6A /* PontosTuristicos */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACE5D4BF1FE9417400FB4A6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACE5D4CF1FE9417500FB4A6A /* LaunchScreen.storyboard in Resources */,
+				ACE5D4CC1FE9417500FB4A6A /* Assets.xcassets in Resources */,
+				ACE5D4CA1FE9417500FB4A6A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACE5D4BD1FE9417400FB4A6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACE5D4C71FE9417500FB4A6A /* ViewController.swift in Sources */,
+				ACE5D4C51FE9417500FB4A6A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ACE5D4C81FE9417500FB4A6A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACE5D4C91FE9417500FB4A6A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACE5D4CD1FE9417500FB4A6A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACE5D4CE1FE9417500FB4A6A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACE5D4D11FE9417500FB4A6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACE5D4D21FE9417500FB4A6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACE5D4D41FE9417500FB4A6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PontosTuristicos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RM31758.PontosTuristicos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		ACE5D4D51FE9417500FB4A6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PontosTuristicos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RM31758.PontosTuristicos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACE5D4BC1FE9417400FB4A6A /* Build configuration list for PBXProject "PontosTuristicos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACE5D4D11FE9417500FB4A6A /* Debug */,
+				ACE5D4D21FE9417500FB4A6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACE5D4D31FE9417500FB4A6A /* Build configuration list for PBXNativeTarget "PontosTuristicos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACE5D4D41FE9417500FB4A6A /* Debug */,
+				ACE5D4D51FE9417500FB4A6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACE5D4B91FE9417400FB4A6A /* Project object */;
+}
